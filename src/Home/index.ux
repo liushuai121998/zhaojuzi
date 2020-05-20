@@ -15,7 +15,8 @@
               <text class="time">{{dateNow}}</text>
               <div class="content-text">
                 <div class="content-text__content"> 
-                  <text>{{item.content}}</text>
+                  <text class="text">{{item.content}}</text>
+                  <text class="author" if="{{item.author}}">{{item.author}}</text>
                 </div>
               </div>
             </list-item>
